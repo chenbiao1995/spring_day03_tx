@@ -1,5 +1,6 @@
 package cn.itcast.service;
 
+
 import cn.itcast.dao.OrdersDao;
 
 public class OrdersService {
@@ -13,6 +14,8 @@ public class OrdersService {
 	public void accountMony() {
 		//少钱方法
 		ordersDao.lessMoney();
+		//异常
+//		int i = 10/0;
 		//多钱的方法
 		ordersDao.moreMoney();
 	}
